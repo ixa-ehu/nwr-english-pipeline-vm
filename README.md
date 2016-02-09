@@ -8,15 +8,15 @@ This is a virtual machine (VM) with all the required modules and NLP processors 
 
 The are some pre-requisites the host machine has to fulfil for running the VM inside it:
 
-    - Linux operating system (any recent flavor would do it) 
+* Linux operating system (any recent flavor would do it) 
 
-    - In-kernel KVM virtualization capabilities. You can also determine if your system processor supports KVM by running the following command:
+* In-kernel KVM virtualization capabilities. You can also determine if your system processor supports KVM by running the following command:
 
         % grep -E 'vmx|svm' /proc/cpuinfo
 
-      if this command returns output, then your system supports KVM. You also have to verify that the KVM-related feature is enabled in the machine's BIOS.
+  if this command returns output, then your system supports KVM. You also have to verify that the KVM-related feature is enabled in the machine's BIOS.
 
-    - 64 bit CPU (x86_64)
+* 64 bit CPU (x86_64)
 
 # Download the virtual machine #
 
