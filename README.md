@@ -22,8 +22,8 @@ The are some pre-requisites the host machine has to fulfil for running the VM in
 
 You need two files for running the VM. 
 
-    http://ixa2.si.ehu.es/newsreader_resources/newsreaderpublicvm_v3.img
-    http://ixa2.si.ehu.es/newsreader_resources/newsreaderpublicvm_v3.xml
+* [Image file](http://ixa2.si.ehu.es/newsreader_resources/newsreaderpublicvm_v3.img)
+* [XML file](http://ixa2.si.ehu.es/newsreader_resources/newsreaderpublicvm_v3.xml)
 
 The first is the VM image with all the required modules installed. The second is an short XML document which is needed for running the VM.
 
