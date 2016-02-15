@@ -82,6 +82,17 @@ If you want to analyze the debug messages of the NLP modules, run this other scr
 
     $ pipeline/run_pipeline_v3_debug.sh docs/input/example.naf > docs/output/example.naf
 
+
+# Shut down the VM #
+
+Logout from VM and then, from the host computer:
+
+    % virsh destroy newsreaderpublicvm_v3
+
+Alternatively, and being on the VM, run the following command:
+
+   $ sudo shutdown -h now
+
 # List of files and directories in th VM #
 
     + README.md      this file
